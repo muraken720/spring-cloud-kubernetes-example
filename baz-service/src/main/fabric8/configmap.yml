@@ -1,0 +1,7 @@
+metadata:
+  name: ${project.artifactId}
+data:
+  application.properties: |
+    # spring application proeprties file
+    app.message = Baz@k8s
+    app.from = ${HOSTNAME} ConfigMap!!!
