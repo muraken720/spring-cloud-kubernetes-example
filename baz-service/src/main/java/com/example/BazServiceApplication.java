@@ -19,7 +19,7 @@ public class BazServiceApplication {
 	String hello() {
 		return config.getMessage() + " @ " + config.getFrom();
 	}
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(BazServiceApplication.class, args);
 	}
